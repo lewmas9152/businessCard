@@ -1,16 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   font-family: "Inter", sans-serif;
-}
-
-body {
-
 }
 
 h3 {
@@ -32,6 +27,7 @@ h4 {
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
+  margin: unset;
 }
 
 a {
@@ -40,6 +36,17 @@ a {
   font-size: 10.24px;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(12, 147, 224);
+}
+
+p {
+  margin: unset;
 }
 
 .container {
@@ -81,13 +88,23 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .socials {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-color: blue;
 }
 
 .email {
@@ -109,7 +126,7 @@ a {
   gap: 8px;
   border-radius: 6px;
   background: #5093e2;
-  
+
   padding: 0.5rem 1rem;
 }
 
@@ -129,23 +146,29 @@ a {
 section {
   text-align: start;
   padding-left: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 footer {
-display: flex;
-justify-content: center;
-gap: 1.5rem;
-align-items: center;
-width: 317px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 0px 0px 10px 10px;
-background: #161619;
-
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  width: 317px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
 }
 
 .icon {
   width: 25px;
-height: 25px;
-flex-shrink: 0;
+  height: 25px;
+  flex-shrink: 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
 }
