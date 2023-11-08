@@ -172,3 +172,21 @@ footer {
   width: 50px;
   height: 50px;
 }
+
+
+@media screen and (max-width:650px){
+ #root {
+  margin: 0;
+  max-width: unset;
+  padding: unset;
+ }
+  body {
+    margin: 0;
+  }
+  .container {
+    width:200px ;
+    margin: 0;
+  }
+
+
+}
